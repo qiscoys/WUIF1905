@@ -1,0 +1,1130 @@
+body,h1,h2,h4,h5,h6,p,ul,ol,li,form,input,textarea,select{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}/*去掉默认样式*/
+body{
+    background-color: #e8e9ec;
+    font-family: 微软雅黑,sans-serif;/*文字字体*/
+    font-size: 16px;
+    font-height:1.5;
+}
+a{
+    color: white;
+    text-decoration: none;/*去掉下划线,上划线overline*/
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+/*默认样式*/
+.header{
+    height: 60px;
+    width: 100%;
+    background: #1C2327;
+}
+.headerBox{
+    width: 1200px;
+    height:100%;
+    margin:0 auto;
+    background: black;
+    line-height: 60px;
+}
+.headerBox h1{
+    /*width: 160px;*/
+    height: 100%;
+    float:left;
+    font-weight: normal;
+    text-align: center;
+    font-size: 26px;
+}
+.headerBox .search{
+    width: 50px;
+    height: 100%;
+    background: #000001;
+    float: right;
+}
+.searchico{
+    margin-top:6px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    display: inline;
+
+}
+.headerBox .nav{
+    /*width: 730px;*/
+    height: 100%;
+    float: left;
+    margin-left: 75px;
+    font-size: 15px;
+}
+.nav li{
+    float: left;
+    margin-right: 36px;
+}
+.nav li a:hover{
+    color: lightseagreen;
+}
+.banner{
+    width: 1200px;
+    height:280px;
+    margin:20px auto;
+    background: #e7e8eb;
+}
+.banner .photo1{
+    width: 616px;
+    height: 100%;
+    background: lightslategray;
+    float: left;
+    position: relative;
+}
+.banner .photo1 .bannerImg{
+    width: 100%;
+    height: 100%;
+
+}
+.bannerImg li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.bannerImg li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.leftBtn, .rightBtn{
+    width: 40px;
+    height: 32px;
+    background: #00c0dd;
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    cursor: pointer;
+}
+.leftBtn{
+    left: 50px;
+}
+.rightBtn{
+    right: 50px;
+}
+.btnList{
+    width: 96px;
+    height: 10px;
+    /*background: #00c0dd;*/
+    position: absolute;
+    bottom: 36px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btnList >li{
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-right: 14px;
+    background: #fbfbfb;
+    border-radius: 50%;
+}
+.banner .photo2{
+    width: 270px;
+    height: 100%;
+    margin-left: 15px;
+    background:#e7e8eb;
+    float: left;
+
+}
+.banner .photo2 .photo2top{
+     width: 270px;
+     height:135px;
+     background: lightslategray;
+     margin-bottom: 10px;
+     position: relative;
+}
+.photo2top img{
+    width: 100%;
+    height: 100%;
+
+}
+.photo2top p{
+    width: 100%;
+    height: 14px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: #fbfbfb;
+}
+.banner .photo2 .photo2bottom{
+    width: 270px;
+    height:135px;
+    background: lightslategray;
+    position: relative;
+}
+.photo2bottom img{
+    width: 100%;
+    height: 100%;
+
+}
+.photo2bottom p{
+    width: 100%;
+    height: 14px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: #ffffff;
+}
+.banner .photo3{
+    /*width: 282px;*/
+    /*height: 260px;*/
+    background: #2c2c2c;
+    float: right;
+    border-radius: 5px;
+
+}
+.banner .photo3 .top{
+    width: 262px;
+    height:39px;
+    background: #2c2c2c;
+    border-bottom: 1px solid #2a2a2a;
+    margin-left: 10px;
+}
+.banner .photo3 .top h3{
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 20px;
+    color: #7c838b;
+}
+.banner .photo3 .mid{
+    width: 232px;
+    height: 95px;
+    background: #2c2c2c;
+    color: #cfd1d3;
+    font-size: 12px;
+    padding: 20px;
+
+}
+.banner .photo3 .boddom{
+    width: 242px;
+    height:45px;
+    padding: 20px;
+    float: left;
+}
+.banner .photo3 .boddom li{
+    width: 28px;
+    height: 28px;
+    float: left;
+    box-shadow: 0px 1px 0px rgba(255,255,255,1),inset 0px 1px 1px rgba(0,0,0,0.7);
+    border-radius: 50%;
+    list-style: none;
+    margin-right: 10px;
+    padding: 11px;
+}
+.banner .photo .boddom li a img{
+   width: 20px;
+    height: 20px;
+}
+/*diary*/
+.diary{
+    width: 1200px;
+    height:3710px;
+    margin:0 auto 20px;
+    background: #e7e8eb;
+}
+.diary .diary1{
+    width: 902px;
+    height:100%;
+    background: #e7e8eb;
+    float: left;
+    border-radius: 5px;
+}
+.part1{
+    /*width: 100%;*/
+    height: 261px;
+    padding: 20px;
+    background: white;
+}
+.part1 .nav1{
+    /*width: 100%;*/
+    height:40px;
+    background-color: white;
+    border-bottom: 1px solid #a8afab;
+    line-height: 40px;
+    position: relative;
+    /*margin-left: 20px;*/
+}
+.part1 .nav1::before{
+    content: '';
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background: #333;
+}
+.part1 .nav1 li{
+    float: left;
+    margin-right: 30px;
+    color:black;
+}
+.part1 .nav2{
+    width: 100%;
+    height: 210px;
+    background: white;
+    margin-top: 10px;
+}
+.nav2-photo{
+    width: 275px;
+    height: 100%;
+    background: white;
+    float: left;
+}
+.nav2-photo .top{
+    width: 100%;
+    height: 100px;
+    background: #e7e8eb;
+    margin-bottom: 10px;
+    position: relative;
+}
+.nav2-photo .top img{
+    width: 100%;
+    height: 100%;
+}
+.nav2-photo .top p{
+    width: 100%;
+    height: 14px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: #ffffff;
+}
+.nav2-photo .bottom{
+    width: 100%;
+    height: 100px;
+    background: #e7e8eb;
+    position: relative;
+}
+.nav2-photo .boddom img{
+    width: 100%;
+    height: 100%;
+}
+.nav2-photo .bottom p{
+    width: 100%;
+    /*height: 14px;*/
+    position: absolute;
+    top: 40px;
+
+    left: 30px;
+    color: #ffffff;
+}
+.nav2-word{
+    width: 570px;
+    height: 100%;
+    background: #e7e8eb;
+    float: right;
+}
+.part1 .nav2 .nav2-word > li{
+    height: auto;
+    padding: 0 30px 0 20px;
+}
+.part1 .nav2 .nav2-word > li.hot{
+    background: #f6f6f6;
+}
+.part1 .nav2 .nav2-word > li > h1 {
+    height: 26px;
+    line-height: 26px;
+}
+.part1 .nav2 .nav2-word > li >  h1 a{
+    font-size: 16px;
+    color: #333333;
+}
+.part1 .nav2 .nav2-word > li.hot>  h1 a{
+    color: #000000;
+}
+.part1 .nav2 .nav2-word >li > p{
+    font-size: 16px;
+    line-height: 1.5;
+    height: 48px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+    display: none;
+    padding: 5px;
+    color: #333333;
+}
+.part1 .nav2 .nav2-word > li.hot > p{
+    display: -webkit-box;
+}
+.part1 .nav2 .nav2-word > li > h1 span{
+    width: 24px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    background: #9a9a9a;
+    font-weight: normal;
+    font-size: 14px;
+}
+.part1 .nav2 .nav2-word > li.hot > h1 span{
+    background: #000000;
+}
+.part2{
+    /*height: 690px;*/
+    /*width: 902px;*/
+    background: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.part2 .nav1{
+    height: 60px;
+    background: white;
+    border-bottom: 1px solid #a8afab;
+    line-height: 60px;
+    position: relative;
+}
+.part2 .nav1::before{
+    content: '';
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background: #333;
+}
+.part2 .nav1 .nav1left{
+    /*width: 90px;*/
+    height: 60px;
+    float: left;
+    background: white;
+    line-height: 60px;
+}
+.nav1left h1{
+    height: 100%;
+    float:left;
+    font-weight: normal;
+    text-align: center;
+    font-size: 17px;
+}
+.part2 .nav1 .nav1right{
+    float: right;
+    background: white;
+}
+.nav1right li{
+    float: left;
+    margin-right: 15px;
+    height: 100%;
+    font-weight: normal;
+    text-align: center;
+    color: #cbd4e1;
+}
+.nav1right a{
+    color: black;
+}
+.part2 .nav2{
+    /*width:862px;*/
+    /*height: 572px;*/
+    background: white;
+    /*margin-top: 20px;*/
+    padding: 20px;
+}
+.recommedList{
+    padding: 0px 10px;
+    overflow: hidden;
+    width: 822px;
+    height: 542px;
+}
+.recommedList li{
+    float: left;
+    width: 225px;
+    height: 247px;
+    border-right: 1px solid #e4e3e3;
+    border-bottom: 1px solid #e4e3e3;
+    padding:20px;
+}
+.recommedThumb{
+    display: block;
+    height: 100px;
+}
+.recommedList > li h2{
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 15px;
+}
+.recommedList > li p{
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.5;
+    height: 63px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 15px 0;
+}
+.recommedRead{
+    font-size: 16px;
+    color: #009966;
+}
+.recommedRead::before{
+    content:'+';/*伪元素*/
+}
+
+.part3{
+    height: 2600px;
+    background: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.part3 .nav1{
+    width:100%;
+    height: 60px;
+    background: white;
+    border-bottom: 0.5px dotted #a8afab;
+    line-height: 60px;
+    position: relative;
+}
+.part3 .nav1::before{
+    content: '';
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background: #333;
+}
+.part3 .nav1 h1{
+    height: 100%;
+    float:left;
+    font-weight: normal;
+    text-align: center;
+    font-size: 17px;
+}
+.part3 .nav2{
+    height: 2500px;
+    background: white;
+    margin-top: 0px;
+    padding: 20px;
+}
+.part3 .nav2 .article{
+    width: 100%;
+    height: 100%;
+    background: white;
+    /*margin-top: 0;*/
+}
+.part3 .nav2 .article li{
+    width: 100%;
+    height: 235px;
+    background: white;
+    border-bottom: 0.5px dotted #95989a;
+    /*margin-top: 0px;*/
+}
+.part3 .nav2 .article li .title{
+    width: 100%;
+    height: 45px;
+    background: white;
+    font-size: 18px;
+    /*margin-bottom: 10px;*/
+}
+.part3 .nav2 .article li .title b{
+    color: red;
+}
+.part3 .nav2 .article li .title a{
+    color: black;
+}
+.part3 .nav2 .article li .bottom{
+    width: 100%;
+    height: 160px;
+    background: white;
+}
+.part3 .nav2 .article li .bottom .photo{
+    width: 200px;
+    height: 100%;
+    background: white;
+    float: left;
+}
+.part3 .nav2 .article li .bottom .photo a{
+    width: 100%;
+    height: 125px;
+}
+.part3 .nav2 .article li .bottom .article{
+    width: 600px;
+    height: 100%;
+    background: white;
+    float: left;
+}
+.part3 .nav2 .article li .bottom .article p{
+    width: 100%;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #666666;
+}
+.zuozhe{
+    width: 100%;
+    height: 55px;
+    background: white;
+    position: relative;
+}
+.zuozhe img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.zuozhe span{
+     margin-top: 20px;
+    float: left;
+    margin-left: 10px;
+    color: #999999;
+}
+.zuozhe span a{
+    color: #096;
+}
+.more{
+    display: block;
+    right: 10px;
+    bottom: 10px;
+    position: absolute;
+    padding: 3px 10px;
+    background: #12b7de;
+    color: white;
+    border-radius: 3px;
+}
+.diary .diary2{
+    width: 283px;
+    height:100%;
+    background: #e7e8eb;
+    float: right;
+    border-radius: 5px;
+}
+.part4{
+    /*width:100%;*/
+    height: 261px;
+    background: white;
+    margin-bottom: 20px;
+    padding:20px
+}
+.part4 .nav1{
+    height:40px;
+    background-color: white;
+    border-bottom: 1px solid #a8afab;
+    line-height: 40px;
+    position: relative;
+}
+.part4 .nav1::before{
+    content: '';
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background: #333;
+}
+.part4 .nav1 h1{
+    height: 100%;
+    float:left;
+    font-weight: normal;
+    text-align: center;
+    font-size: 17px;
+}
+.part4 .nav2{
+    width: 100%;
+    height: 210px;
+    background: white;
+    margin-top: 30px;
+}
+.part4 .nav2 .nav2list li{
+    width: 100%;
+    height: 37px;
+    background: #e7e8eb;
+    margin-bottom: 11px;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 40px;
+    position: relative;
+}
+.part4 .nav2 .nav2list li a{
+    color: black;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.part4 .nav2 .nav2list li::before{
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 3px;
+    background: black;
+    border-radius: 10px;
+    left: 5px;
+    top: 20px;
+}
+
+.part5{
+    /*width:100%;*/
+    height: 510px;
+    background: white;
+    margin-bottom: 20px;
+    padding:20px
+}
+.part5 .nav1{
+    height:40px;
+    background-color: white;
+    border-bottom: 1px solid #a8afab;
+    line-height: 40px;
+    position: relative;
+}
+.part5 .nav1::before{
+    content: '';
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background: #333;
+}
+.part5 .nav1 h1{
+    height: 100%;
+    float:left;
+    font-weight: normal;
+    text-align: center;
+    font-size: 17px;
+}
+.part5 .nav2{
+    width: 100%;
+    height: 450px;
+    background: white;
+    margin-top: 20px;
+    position: relative;
+}
+.part5 .nav2 .img{
+    width: 100%;
+    height: 110px;
+    background: #e7e8eb;
+}
+.part5 .nav2 p{
+    width: 100%;
+    height: 14px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: #fbfbfb;
+}
+.part5 .nav2 .article{
+    width: 100%;
+    height: 280px;
+    background: white;
+    margin-top: 15px;
+    /*margin-left: 20px;*/
+
+}
+.part5 .nav2 .article li{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+}
+.part5 .nav2 .article li i::before{
+    display: block;
+    width: 16px;
+    height: 16px;
+    /*background: #fd6601;*/
+    float: left;
+    margin-top: 4px;
+    margin-right: 10px;
+    position: relative;
+    font-style: normal;
+    font-size: 9px;
+    text-align: center;
+    line-height: 16px;
+}
+.part5 .nav2 .article li a{
+    color: #2a2a2a;
+}
+
+.a::before{
+    content: "1";
+    background: #fd6601;
+}
+.b::before{
+    content: "2";
+    background: #fd6601;
+}
+.c::before{
+    content: "3";
+    background: #fd6601;
+}
+.d::before{
+    content: "4";
+    background: #b0b0b0;
+}
+.e::before{
+    content: "5";
+    background: #b0b0b0;
+}
+.f::before{
+    content: "6";
+    background: #b0b0b0;
+}
+.g::before{
+    content: "7";
+    background: #b0b0b0;
+}
+.part6{
+    /*width:100%;*/
+    height: 715px;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.part6 .nav1{
+    height:40px;
+    background-color: white;
+    border-bottom: 1px solid #a8afab;
+    line-height: 40px;
+    position: relative;
+}
+.part6 .nav1::before{
+    content: '';
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background: #333;
+}
+.part6 .nav1 h1{
+    height: 100%;
+    float:left;
+    font-weight: normal;
+    text-align: center;
+    font-size: 17px;
+}
+.part6 .nav2{
+    width: 100%;
+    height: 645px;
+    background: white;
+    margin-top: 20px;
+    position: relative;
+}
+.part6 .nav2 .img{
+    width: 100%;
+    height: 110px;
+    background: white;
+}
+.part6 .nav2 p {
+    width: 100%;
+    height: 14px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: #fbfbfb;
+}
+.part6 .nav2 .article{
+    width: 100%;
+    height: 510px;
+    background: white;
+    margin-top: 35px;
+}
+.part6 .nav2 .article .tu{
+    width: 70px;
+    height: 100%;
+    background: white;
+    float: left;
+}
+.part6 .nav2 .article .tu li{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.part6 .nav2 .article .tu li img{
+    width: 100%;
+    height: 100%;
+}
+.part6 .nav2 .article .word{
+    width: 160px;
+    height: 100%;
+    background: white;
+    float: right;
+}
+.part6 .nav2 .article .word li{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    background: white;
+}
+.part6 .nav2 .article .word li a{
+    color: black;
+    font-size: 15px;
+}
+
+.part7{
+    /*width:100%;*/
+    height: 543px;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.part7 .nav1{
+    height:40px;
+    background-color: white;
+    border-bottom: 1px solid #a8afab;
+    line-height: 40px;
+    position: relative;
+}
+.part7 .nav1::before{
+    content: '';
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background: #333;
+}
+.part7 .nav1 h1{
+    height: 100%;
+    float:left;
+    font-weight: normal;
+    text-align: center;
+    font-size: 17px;
+}
+.part7 .nav2{
+    width: 100%;
+    height: 453px;
+    background: white;
+    margin-top: 20px;
+
+}
+.part7 .nav2 .article{
+    /*width: 100%;*/
+    height: 480px;
+    background: #e7e8eb;
+    margin-top: 15px;
+}
+.part7 .nav2 .article li{
+    width: 100%;
+    height: 48px;
+    background: white;
+    position: relative;
+
+}
+.part7 .nav2 .article li a{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+.part7 .nav2 .article li::before{
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: black;
+    border-radius: 10px;
+    left: 0px;
+    top: 10px;
+}
+.part8{
+    /*width:100%;*/
+    height: 180px;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.part8 .nav1{
+    height:180px;
+    background-color: #e7e8eb;
+}
+.part8 .nav1 img{
+    width: 100%;
+    height: 100%;
+}
+.part9{
+    /*width:100%;*/
+    height: 450px;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.part9 .nav1{
+    height:40px;
+    background-color: white;
+    border-bottom: 1px solid #a8afab;
+    line-height: 40px;
+    position: relative;
+}
+.part9 .nav1::before{
+    content: '';
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background: #333;
+}
+.part9 .nav1 h1{
+    height: 100%;
+    float:left;
+    font-weight: normal;
+    text-align: center;
+    font-size: 17px;
+}
+.part9 .nav2{
+    width: 100%;
+    height: 280px;
+    background: white;
+    margin-top: 20px;
+}
+.part9 .nav2 .article{
+    width: 100%;
+    height: 380px;
+    background: white;
+    margin-top: 15px;
+}
+.part9 .nav2 .article ul{
+    width: 100%;
+    height: 210px;
+    background: white;
+}
+.part9 .nav2 .article ul li{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    background:white;
+    font-size: 15px;
+}
+.part9 .nav2 .article img{
+    width: 185px;
+    height: 185px;
+    margin:10px 20px;
+}
+.part10{
+    /*width:100%;*/
+    height: 100px;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.part10 .nav1{
+    height:40px;
+    background-color: white;
+    border-bottom: 1px solid #a8afab;
+    line-height: 40px;
+    position: relative;
+}
+.part10 .nav1::before{
+    content: '';
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background: #333;
+}
+.part10 .nav1 h1{
+    height: 100%;
+    float:left;
+    font-weight: normal;
+    text-align: center;
+    font-size: 17px;
+}
+.part10 .nav2{
+    width: 100%;
+    height: 60px;
+    background: white;
+    margin-top: 20px;
+}
+.part10 .nav2 .article{
+    width: 100%;
+    height: 50px;
+    background: white;
+    margin-top: 15px;
+}
+.part10 .nav2 .article a{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: black;
+}
+/*footer*/
+.footer{
+    height: 190px;
+    width: 100%;
+    background: #00c0dd;
+    padding:10px 0;
+}
+.footerBox{
+    height: 200px;
+    width: 100%;
+    background: #3a4044;
+    padding: 20px;
+}
+.footerBox-left{
+    width: 240px;
+    height: 100%;
+    background: #3a4044;
+    float: left;
+    margin-left: 66px;
+}
+.footerBox-left .img1{
+    width: 110px;
+    height: 100%;
+    background: #3a4044;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    color: #767777;
+}
+.footerBox-left .img1 li{
+    width: 100%;
+    height: 60%;
+    margin-top: 30px;
+
+}
+
+.footerBox-left .img2{
+    width: 110px;
+    height: 100%;
+    background: #3a4044;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #767777;
+}
+.footerBox-left .img2 li{
+    width: 100%;
+    height: 60%;
+    margin-top: 30px;
+}
+
+.footerBox-right{
+    width: 750px;
+    height: 100%;
+    background: #3a4044;
+    float: left;
+    margin-left: 10px;
+}
+.footerBox-right h3{
+    color: #13c0dd;
+    font-size: 20px;
+}
+.footerBox-right p{
+    color: #95989a;
+    font-size: 15px;
+}
