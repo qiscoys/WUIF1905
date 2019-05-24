@@ -97,7 +97,7 @@ img{
 .leftBtn, .rightBtn{
     width: 40px;
     height: 32px;
-    background: #00c0dd;
+    /*background: #00c0dd;*/
     position: absolute;
     top: 50%;
     margin-top: -16px;
