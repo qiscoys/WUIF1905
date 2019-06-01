@@ -78,6 +78,7 @@ img{
     background: lightslategray;
     float: left;
     position: relative;
+    overflow: hidden;
 }
 .banner .photo1 .bannerImg{
     width: 100%;
@@ -88,21 +89,30 @@ img{
     width: 100%;
     height: 100%;
     position: absolute;
+    top: 0;
+    left: 616px;
+}
+.bannerImg > li:first-child{
+    left: 0;
 }
 .bannerImg li a{
     width: 100%;
     height: 100%;
     display: block;
 }
-/*.leftBtn, .rightBtn{*/
-/*    width: 40px;*/
-/*    height: 32px;*/
-/*    !*background: #00c0dd;*!*/
-/*    position: absolute;*/
-/*    top: 50%;*/
-/*    margin-top: -16px;*/
-/*    cursor: pointer;*/
-/*}*/
+.leftBtn, .rightBtn{
+    width: 40px;
+    height: 32px;
+    /*background: #00c0dd;*/
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    cursor: pointer;
+}
+.leftBtn img, .rightBtn img{
+    width: 100%;
+    left: 100%;
+}
 .leftBtn{
     left: 50px;
 }
@@ -127,6 +137,9 @@ img{
     margin-right: 14px;
     background: #fbfbfb;
     border-radius: 50%;
+}
+.btnList >li.hot{
+    background: #046b8c;
 }
 .banner .photo2{
     width: 270px;
@@ -246,7 +259,7 @@ img{
     padding: 20px;
     background: white;
 }
-.part1 .nav1{
+.part1 .nav11{
     /*width: 100%;*/
     height:40px;
     background-color: white;
@@ -255,16 +268,16 @@ img{
     position: relative;
     /*margin-left: 20px;*/
 }
-.part1 .nav1::before{
-    content: '';
-    height: 2px;
-    width: 100px;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    background: #333;
-}
-.part1 .nav1 li{
+/*.part1 .nav1::before{*/
+/*    content: '';*/
+/*    height: 2px;*/
+/*    width: 100px;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    bottom: -1px;*/
+/*    background: #333;*/
+/*}*/
+.part1 .nav11 li{
     float: left;
     margin-right: 30px;
     color:black;
