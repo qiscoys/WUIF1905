@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <title>个人博客</title>
     <link rel="stylesheet" href="./css/index.css">
+
+    <script src="../jquery-3.4.1.min.js"></script>
+    <script src="../tuupola-jquery_lazyload/jquery-1.11.0.min.js"></script>
+    <script src="../tuupola-jquery_lazyload/jquery.lazyload.min.js"></script>
     <script src="./js/index.js"></script>
     <script src="./js/animate.js"></script>
+<!--    <script src="js/blog.js"></script>-->
 </head>
+<script>
+    $(function () {
+        $("img.lazy").lazyload({effect: "fadeIn"});
+    })
+</script>
 <body>
 <!--内宽-->
     <div class="header">
@@ -19,7 +29,7 @@
                 <li><a href="">设计心得</a></li>
                 <li><a href="./aboutme.html">关于我</a></li>
                 <li><a href="./time.html">时间轴</a></li>
-                <li><a href="./liuyan.html">留言</a></li>
+                <li><a href="./talk.html">留言</a></li>
             </ul>
             <div class="search">
                 <idv class="searchico">
@@ -254,7 +264,7 @@
                             <div class="bottom">
                                 <div class="photo">
                                     <a href="">
-                                        <img aa="./image/bowen1.jpg" alt="" class="lazyLoad">
+                                        <img data-original="./image/bowen1.jpg" class="lazy"/>
                                     </a>
                                 </div>
                                 <div class="article">
@@ -281,7 +291,7 @@
                             <div class="bottom">
                                 <div class="photo">
                                     <a href="">
-                                        <img aa="./image/bowen2.jpg" alt="" class="lazyLoad">
+                                        <img data-original="./image/bowen2.jpg" alt="" class="lazy">
                                     </a>
                                 </div>
                                 <div class="article">
@@ -308,7 +318,7 @@
                             <div class="bottom">
                                 <div class="photo">
                                     <a href="">
-                                        <img aa="./image/bowen3.jpg" alt="" class="lazyLoad">
+                                        <img data-original="./image/bowen3.jpg" alt="" class="lazy">
                                     </a>
                                 </div>
                                 <div class="article">
@@ -334,7 +344,7 @@
                             <div class="bottom">
                                 <div class="photo">
                                     <a href="">
-                                        <img aa="./image/20.png" alt="" class="lazyLoad">
+                                        <img data-original="./image/20.png" alt="" class="lazy">
                                     </a>
                                 </div>
                                 <div class="article">
@@ -365,7 +375,7 @@
                             <div class="bottom">
                                 <div class="photo">
                                     <a href="">
-                                        <img aa="./image/30.png" alt=""  class="lazyLoad">
+                                        <img data-original="./image/30.png" alt=""  class="lazy">
                                     </a>
                                 </div>
                                 <div class="article">
@@ -393,7 +403,7 @@
                             <div class="bottom">
                                 <div class="photo">
                                     <a href="">
-                                        <img aa="./image/40.jpg" alt="" class="lazyLoad">
+                                        <img data-original="./image/40.jpg" alt="" class="lazy">
                                     </a>
                                 </div>
                                 <div class="article">
@@ -421,7 +431,7 @@
                             <div class="bottom">
                                 <div class="photo">
                                     <a href="">
-                                        <img aa="./image/50.jpg" alt="" class="lazyLoad">
+                                        <img data-original="./image/50.jpg" alt="" class="lazy">
                                     </a>
                                 </div>
                                 <div class="article">
@@ -449,7 +459,7 @@
                             <div class="bottom">
                                 <div class="photo">
                                     <a href="">
-                                        <img aa="./image/60.jpg" alt="" class="lazyLoad">
+                                        <img data-original="./image/60.jpg" alt="" class="lazy">
                                     </a>
                                 </div>
                                 <div class="article">
@@ -477,7 +487,7 @@
                             <div class="bottom">
                                 <div class="photo">
                                     <a href="">
-                                        <img src="./image/70.jpg" alt="">
+                                        <img data-original="./image/70.jpg" alt="" class="lazy">
                                     </a>
                                 </div>
                                 <div class="article">
@@ -505,7 +515,7 @@
                             <div class="bottom">
                                 <div class="photo">
                                     <a href="">
-                                        <img aa="./image/80.jpg" alt="" class="lazyLoad">
+                                        <img data-original="./image/80.jpg" alt="" class="lazy">
                                     </a>
                                 </div>
                                 <div class="article">

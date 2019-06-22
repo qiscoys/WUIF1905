@@ -1,8 +1,8 @@
 body,h1,h2,h4,h5,h6,p,ul,ol,li,form,input,textarea,select{
-    margin: 0;
-    padding:0;
-    list-style: none;
-}/*去掉默认样式*/
+     margin: 0;
+     padding:0;
+     list-style: none;
+ }/*去掉默认样式*/
 body{
     background-color: #e8e9ec;
     font-family: 微软雅黑,sans-serif;/*文字字体*/
